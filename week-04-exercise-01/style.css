@@ -6,6 +6,7 @@ html,
 body {
     min-height: 100vh;
     margin: 0;
+    background-color: #000000;
 }
 
 body {
@@ -22,6 +23,7 @@ main {
     width: 90%;
     padding: 16px;
     border: 1px solid rgba(0, 0, 0, 0.25);
+    background-color: #b3b3b3;
 }
 
 h1 {
@@ -35,10 +37,12 @@ h1 {
 
 h2 {
     font-size: 24px;
-    margin-top: 48px;
+    margin-top: 24px;
     margin-bottom: 16px;
     border-bottom: 1px solid rgba(0, 0, 0, 1);
     padding-bottom: 16px;
+    display: flex;
+    text-align: center;
 }
 
 p {
@@ -58,4 +62,10 @@ p {
     display: block;
     margin: 0 auto;
     border: 1px solid rgba(0, 0, 0, 0.25);
+}
+a {
+    margin-top: 32px;
+    color: #000;
+    display: flex;
+    justify-content: flex-end;
 }
