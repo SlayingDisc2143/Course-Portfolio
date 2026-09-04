@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "MyGothFont";
+    src: url("./fonts/UnifrakturCook-Bold.ttf") format("truetype");
+}
+
 html,
 body {
     min-height: 100vh;
@@ -10,6 +15,7 @@ body {
 }
 
 body {
+    background-color: rgb(103, 70, 146);
     font-family: "Times New Roman", serif;
     line-height: 2;
     display: flex;
@@ -19,6 +25,7 @@ body {
 }
 
 main {
+    background-color: rgb(183, 124, 223);
     max-width: 1200px;
     width: 90%;
     padding: 16px;
@@ -26,8 +33,9 @@ main {
 }
 
 h1 {
+    font-family: "MyGothFont", serif;
     font-weight: normal;
-    font-size: 48px;
+    font-size: 96px;
     line-height: 1em;
     margin-top: 48px;
     margin-bottom: 48px;
@@ -40,6 +48,7 @@ main>p {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 22px;
 }
 
 .collection-grid {
@@ -50,9 +59,9 @@ main>p {
 }
 
 .collection-card {
-    width: 500px;
+    flex: 1 1 300px;
     border: 1px solid rgba(0, 0, 0, 0.25);
-    background-color: #fafafa;
+    background-color: rgb(186, 156, 206);
     padding: 16px;
 }
 
@@ -66,6 +75,7 @@ main>p {
 }
 
 .collection-card h2 {
+    font-family: "MyGothFont", serif;
     font-size: 24px;
     font-weight: bold;
     margin-top: 0;
@@ -85,4 +95,22 @@ main>p {
     font-size: 16px;
     margin-bottom: 0;
     line-height: 1.6;
+}
+
+@media (width >= 480px) {
+    .collection-card {
+        flex-basis: 45%;
+    }
+}
+
+@media (width >= 1024px) {
+    .collection-card {
+        flex-basis: 30%;
+    }
+}
+a {
+    margin-top: 32px;
+    color: #000;
+    display: flex;
+    justify-content: flex-end;
 }
