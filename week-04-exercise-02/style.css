@@ -43,6 +43,7 @@ h1 {
 }
 
 main>p {
+    font-family: "Old English Text MT", fantasy;
     margin-bottom: 32px;
     text-align: center;
     max-width: 800px;
@@ -78,6 +79,7 @@ main>p {
     font-family: "MyGothFont", serif;
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
     margin-top: 0;
     margin-bottom: 8px;
     line-height: 1.2;
@@ -88,6 +90,7 @@ main>p {
     color: rgba(0, 0, 0, 0.6);
     margin-bottom: 16px;
     font-style: italic;
+    text-align: center;
 }
 
 .collection-card .description {
