@@ -139,3 +139,13 @@ button {
     transform: scale(1.1);
     border-radius: 50%;
 }
+
+.href {
+    display: block;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+    font-size: 16px;
+    color: #000000;
+}
