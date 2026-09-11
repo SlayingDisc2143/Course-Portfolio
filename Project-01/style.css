@@ -2,17 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #241d2b;
 }
 
 .body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #0b0a1000;
     color: #333;
     line-height: 1.6;
 }
 
+.Main-Title {
+    text-align: center;
+    font-size: 36px;
+    background-color: #33333300;
+    color: #fff;
+}
 .navbar {
-    background-color: #333;
+    background-color: #33263f;
+    border-radius: 1px;
+    border-bottom: 2px solid black;
+    border-top: 0px solid;
+    border-right: 0px solid;
+    border-left: 0px solid;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -20,12 +32,19 @@
     justify-content: space-between;
 }
 
+.ul-style {
+    background-color: #33333300;
+    padding: 4px;
+    display: flex;
+    list-style: wrap;
+}
+
 .home-button {
     background-color: #555;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 .about-button {
@@ -33,7 +52,7 @@
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 .contact-button {
@@ -41,16 +60,29 @@
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 .Content-Box{
-    background-color: #fff;
-    border: 1px solid black;
+    background-color: #241d2b;
+    color: #fff;
+    border: 4px solid black;
     border-left: 5px solid #333;
-    border-right: 5px solid #333;
+    border-top: 5px solid #333;
     padding: 20px;
     margin-left: 160px;
     margin-right: 160px;
     margin-top: 40px;
+}
+
+.Footer-Text {
+    background-color: #333;
+    color: #fff;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
