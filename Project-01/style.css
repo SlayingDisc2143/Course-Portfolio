@@ -222,14 +222,22 @@
     margin-bottom: 10px;
 }
 
-.Footer-Text {
+.Footer-Contact {
     background-color: #333;
     color: #fff;
-    text-align: right;
-    display: flex;
-    justify-content: space-between;
-    padding: 2px;
+    padding: 4px 20px;
     position: fixed;
     bottom: 0;
+    left: 0;
     width: 100%;
+}
+
+.Footer-Contact a,
+.Footer-Contact p {
+    background-color: #333;
+    color: #fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
 }
