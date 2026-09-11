@@ -16,10 +16,11 @@
     color: #fff;
     padding: 20px;
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
-.home-buton {
+.home-button {
     background-color: #555;
     color: #fff;
     padding: 10px 20px;
