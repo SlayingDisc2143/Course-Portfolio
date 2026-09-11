@@ -63,6 +63,21 @@
     border-radius: 0px;
 }
 
+.div-home-button {
+    padding: 10px;
+    background-color: #33333300;
+}
+
+.div-about-button {
+    padding: 10px;
+    background-color: #33333300;
+}
+
+.div-contact-button {
+    padding: 10px;
+    background-color: #33333300;
+}
+
 .Content-Box{
     background-color: #241d2b;
     color: #fff;
