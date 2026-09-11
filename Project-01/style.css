@@ -167,7 +167,60 @@
     margin-bottom: 10px;
 }
 
+.projects-section {
+    background-color: #241d2b;
+    color: #fff;
+    border: 4px solid black;
+    border-left: 5px solid #333;
+    border-top: 5px solid #333;
+    padding: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 40px;
+}
 
+.projects-section h2 {
+    font-family: 'New Rocker';
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.project-card-01,
+.project-card-02,
+.project-card-03 {
+    background-color: #241d2b;
+    color: #fff;
+    border: 4px solid black;
+    border-left: 5px solid #333;
+    border-top: 5px solid #333;
+    padding: 20px;
+    width: 300px;
+}
+
+.project-card-01 img,
+.project-card-02 img,
+.project-card-03 img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.project-card-01 h3,
+.project-card-02 h3,
+.project-card-03 h3 {
+    font-family: 'New Rocker';
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 .Footer-Text {
     background-color: #333;
