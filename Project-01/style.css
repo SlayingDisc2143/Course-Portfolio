@@ -250,3 +250,12 @@
 .Footer-Contact a:hover {
         color: var(--highlight-color);
 }
+
+@media (max-width: 600px) {
+
+.Content-Box,
+.skills-section,
+.projects-section {
+    margin-left: 20px;
+    margin-right: 20px;
+}}
