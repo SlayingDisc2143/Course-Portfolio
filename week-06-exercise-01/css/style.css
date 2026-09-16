@@ -196,9 +196,57 @@ code {
   transition: background-color 0.3s ease;
 }
 
-
 .nav-custom+main {
   margin-top: 80px;
+}
+
+.nav-custom-02 {
+  background-color: #380547;
+  padding: 12px 32px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.nav-custom-02 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nav-custom-02 li {
+  background-color: #5a0275;
+  padding: 0 25px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-custom-02 li:hover {
+  background-color: #8a2ca5;
+}
+
+.nav-custom-02 a {
+  display: block;
+  padding: 12px 0;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-custom-02 a:hover {
+  color: #d984f3;
+}
+
+.nav-custom-02+main {
+  margin-left: 200px;
+  margin-top: 32px;
 }
 
 @media (width >=480px) {}
