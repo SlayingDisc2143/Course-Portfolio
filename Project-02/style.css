@@ -222,7 +222,7 @@ a:hover {
 }
 
 .contact-button:hover {
-  background-color: #d984f3;
+  background-color: var(--accent);
   color: var(--background);
   transform: translateY(-3px);
 }
@@ -242,4 +242,9 @@ a:hover {
   display: flex;
   justify-content: center;
   padding-top: 20px;
+}
+
+.a-project-links {
+  display: flex;
+  justify-content: flex-end;
 }
