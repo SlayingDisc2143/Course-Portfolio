@@ -12,13 +12,31 @@
     src: url("./fonts/UnifrakturCook-Bold.ttf") format("truetype");
 }
 
+.main-format {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.image-box {
+  width: 300px;
+  padding-right: 20px;
+  border: var(--secondary);
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 body {
     background-color: var(--background);
     color: var(--text);
     font-family: Arial, sans-serif;
     margin-top: 120px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
     padding: 20px;
 }
 
