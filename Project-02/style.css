@@ -7,6 +7,11 @@
     --text: #fffdf8;
 }
 
+@font-face {
+    font-family: "MyGothFont";
+    src: url("./fonts/UnifrakturCook-Bold.ttf") format("truetype");
+}
+
 body {
     background-color: var(--background);
     color: var(--text);
@@ -15,6 +20,10 @@ body {
     margin-left: 80px;
     margin-right: 80px;
     padding: 20px;
+}
+
+title {
+    font-family: "MyGothFont", serif;
 }
 
 
@@ -26,6 +35,7 @@ body {
 }
 
 h1, h2, h3 {
+    font-family: "MyGothFont", serif;
     color: var(--secondary);
 }
 
