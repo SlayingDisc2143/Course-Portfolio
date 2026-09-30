@@ -1,0 +1,46 @@
+:root {
+    --primary: #2c2250;
+    --secondary: #ab9ff2;
+    --accent: #893ea0;
+    --background: #0d0b12;
+    --surface: #241d2b;
+    --text: #fffdf8;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+    color: var(--secondary);
+}
+
+.container {
+    background-color: var(--surface);
+    padding: 20px;
+    border-radius: 12px;
+}
+
+button {
+    background-color: var(--primary);
+    color: var(--text);
+    border: 2px solid var(--secondary);
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--accent);
+    transform: scale(1.05);
+}
+
+a {
+    color: var(--secondary);
+}
+
+a:hover {
+    color: var(--accent);
+}
