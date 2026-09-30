@@ -1,21 +1,20 @@
 :root {
-    --primary: #2c2250;
-    --secondary: #ab9ff2;
-    --accent: #893ea0;
-    --background: #0d0b12;
-    --surface: #241d2b;
-    --text: #fffdf8;
+  --primary: #2c2250;
+  --secondary: #ab9ff2;
+  --accent: #893ea0;
+  --background: #0d0b12;
+  --surface: #241d2b;
+  --text: #fffdf8;
 }
 
 @font-face {
-    font-family: "MyGothFont";
-    src: url("./fonts/UnifrakturCook-Bold.ttf") format("truetype");
+  font-family: "MyGothFont";
+  src: url("./fonts/UnifrakturCook-Bold.ttf") format("truetype");
 }
 
 .main-format {
-    display: flex;
-    flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
 }
 
 .image-box {
@@ -31,63 +30,65 @@
 }
 
 body {
-    background-color: var(--background);
-    color: var(--text);
-    font-family: Arial, sans-serif;
-    margin-top: 120px;
-    margin-left: 120px;
-    margin-right: 120px;
-    padding: 20px;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  margin-top: 120px;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding: 20px;
 }
 
 title {
-    font-family: "MyGothFont", serif;
+  font-family: "MyGothFont", serif;
+  padding-left: 40px;
 }
 
 
 .card {
-    border: 4px solid var(--secondary);
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 10px;
+  border: 4px solid var(--secondary);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 10px;
 }
 
 h1, h2, h3 {
-    font-family: "MyGothFont", serif;
-    color: var(--secondary);
+  font-family: "MyGothFont", serif;
+  color: var(--secondary);
 }
 
 .container {
-    background-color: var(--surface);
-    padding: 20px;
-    border-radius: 12px;
+  background-color: var(--surface);
+  padding: 20px;
+  border-radius: 12px;
 }
 
 button {
-    background-color: var(--primary);
-    color: var(--text);
-    border: 2px solid var(--secondary);
-    padding: 10px 20px;
-    border-radius: 8px;
-    transition: 0.3s ease;
+  background-color: var(--primary);
+  color: var(--text);
+  border: 2px solid var(--secondary);
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: 0.3s ease;
 }
 
 button:hover {
-    background-color: var(--accent);
-    transform: scale(1.05);
+  background-color: var(--accent);
+  transform: scale(1.05);
 }
 
 a {
-    color: var(--secondary);
+  color: var(--secondary);
 }
 
 .a-backlink {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
+  padding-top: 10px;
 }
 
 a:hover {
-    color: var(--accent);
+  color: var(--accent);
 }
 
 .nav-custom-03 {
@@ -96,10 +97,15 @@ a:hover {
   left: 0;
   right: 0;
   background-color: #18021f;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.nav-custom-03 h1{
+  padding-left: 40px;
 }
 
 .nav-custom-03 ul {
