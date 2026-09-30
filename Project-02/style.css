@@ -150,3 +150,24 @@ a:hover {
 .nav-custom-03+body {
   padding-top: 0px;
 }
+
+.about-section {
+  padding: 30px;
+}
+
+.projects-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #5a0275;
+  color: white;
+  text-decoration: none;
+  border: 2px solid #d984f3;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.projects-button:hover {
+  background-color: #d984f3;
+  color: #18021f;
+}
